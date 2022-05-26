@@ -9,7 +9,7 @@
 
 ## Demonstração
 
-...
+Em breve...
 
 
 ## Aprendizados
@@ -26,6 +26,7 @@ Aqui vou contar como foi criar esse projeto.
 ## Stack utilizada
 
 **Front-end:** HTML5, CSS3, BOOTSTRAP e JAVASCRIPT
+
 ## Autores
 
 - [@FernandoAz09](https://www.github.com/FernandoAz09)
