@@ -19,13 +19,13 @@ Aqui vou contar como foi criar esse projeto.
 
 ## Funcionalidades
 
-- Temas dark e light
-- Responsividade
+- Temas dark e light.
+- Responsividade.
 
 
 ## Stack utilizada
 
-**Front-end:** HTML5, CSS3, BOOTSTRAP e JAVASCRIPT
+**Front-end:** HTML5, CSS3, Bootstrap e JavaScript.
 
 ## Autores
 
@@ -34,5 +34,5 @@ Aqui vou contar como foi criar esse projeto.
 
 ## Feedback
 
-Se você tiver algum feedback, por favor entre em contato via [LinkedIn](https://www.linkedin.com/in/azevedo-fernando/)
+Se você tiver algum feedback, por favor entre em contato via [LinkedIn](https://www.linkedin.com/in/azevedo-fernando/).
 
