@@ -19,13 +19,12 @@ Aqui vou contar como foi criar esse projeto.
 
 ## Funcionalidades
 
-- Temas dark e light.
-- Responsividade.
+- Implementarei Temas dark e light e futuramente Responsividade.
 
 
 ## Stack utilizada
 
-**Front-end:** HTML5, CSS3, Bootstrap e JavaScript.
+**Front-end:** HTML5, CSS3 e JavaScript.
 
 ## Autores
 
