@@ -25,7 +25,7 @@ Aqui vou contar como foi criar esse projeto.
 
 ## Stack utilizada
 
-**Front-end:** HTML5, CSS3, Bootstrap e JavaScript.
+**Front-end:** HTML5, CSS3 e JavaScript.
 
 ## Autores
 
