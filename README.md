@@ -8,11 +8,10 @@
 
 
 ## Demonstração
-<img src="/assets/imgs/print1.png" alt="">
-<img src="/assets/imgs/print2.png" alt="">
-<img src="/assets/imgs/print3.png" alt="">
-<img src="/assets/imgs/print4.png" alt="">
-<img src="/assets/imgs/print5.png" alt="">
+<img src="/assets/imgs/print1.png"  width="500px" heigt="500px">
+<img src="/assets/imgs/print2.png"  width="500px" heigt="500px">
+<img src="/assets/imgs/print4.png"  width="500px" heigt="500px">
+<img src="/assets/imgs/print5.png"  width="500px" heigt="500px">
 
 
 
