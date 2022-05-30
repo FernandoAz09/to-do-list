@@ -1,10 +1,10 @@
 :root {
-    --dark: #374151;
-    --darker: #1F2937;
-    --darkest: #111827;
+    --dark: #0f1213;
+    --darker: #1f2d37;
+    --darkest: #112127;
     --gray: #6B7280;
-    --green: #6fff7b;
-    --blue: #0097ee;
+    --green: #00ff40;
+    --blue: #0066ff;
     --light: rgb(177, 177, 177);
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 6.5rem;
     font-weight: 700;
     color: var(--gray);
     margin-bottom: 1rem;
@@ -126,7 +126,7 @@ main {
 }
 
 #tasks .task .content .text:not(:read-only) {
-    color: var(--green);
+    color: rgb(255, 251, 0);
 }
 
 #tasks .task .actions {
@@ -157,5 +157,18 @@ main {
 }
 
 .task .actions .delete:hover {
-    color: rgb(255, 0, 51);
+    color: rgb(212, 71, 100);
+}
+
+.task .actions .done {
+    background-image: linear-gradient(to left, var(--green), var(--blue));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tasks .content.-done {
+    text-decoration: line-through;
+    opacity: 0.2;
 }

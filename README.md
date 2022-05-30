@@ -19,7 +19,7 @@ Aqui vou contar como foi criar esse projeto.
 
 ## Funcionalidades
 
-- Implementarei Temas dark e light e futuramente Responsividade.
+- Implementarei futuramente Temas dark e light e  Responsividade.
 
 
 ## Stack utilizada
