@@ -2,7 +2,7 @@
 # TO-DO-LIST
 
 - Projeto feito para me desafiar, aprender, praticar e mostrar para o mundo que sou capaz!!
-- Neste projeto será feito uma lista de tarefas, onde será possível, CRIAR, EDITAR , EXCLUIR e ATUALIZAR, marcando como feitas as TASKS criadas.
+- Neste projeto será feito uma lista de tarefas, onde será possível, CRIAR, VISUALIZAR, EXCLUIR e EDITAR/ATUALIZAR marcando como feitas as TASKS criadas.
 
 
 

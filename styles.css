@@ -69,6 +69,8 @@ button {
     font-weight: 700;
     background-image: linear-gradient( to right, var(--green), var(--blue));
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip:text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
     transition: .6s;
@@ -92,3 +94,5 @@ main {
 .task-list {
     padding: 1rem;
 }
+
+/* https://youtu.be/MkESyVB4oUw?t=1016 */
