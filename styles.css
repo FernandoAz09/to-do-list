@@ -1,11 +1,11 @@
 :root {
     --dark: #374151;
-	--darker: #1F2937;
-	--darkest: #111827;
-	--gray: #6B7280;
-	--green: #6fff7b;
-	--blue: #0097ee;
-	--light: #EEE;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6B7280;
+    --green: #6fff7b;
+    --blue: #0097ee;
+    --light: rgb(177, 177, 177);
 }
 
 * {
@@ -31,7 +31,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--gray);
     margin-bottom: 1rem;
@@ -67,21 +67,23 @@ button {
     color: var(--green);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient( to right, var(--green), var(--blue));
+    background-image: linear-gradient(to right, var(--green), var(--blue));
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    background-clip:text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    transition: .6s;
+    transition: opacity .6s;
 }
 
-#new-task-submit:hover {
+#new-task-submit:hover,
+.task .actions .edit:hover {
     opacity: 0.8;
 }
 
-#new-task-submit:active {
-    opacity: 0.6;
+#new-task-submit:active,
+.task .actions .edit:active {
+    opacity: 0.8;
 }
 
 main {
@@ -95,4 +97,61 @@ main {
     padding: 1rem;
 }
 
-/* https://youtu.be/MkESyVB4oUw?t=1016 */
+.task-list h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#tasks .task .content .text {
+    color: var(--light);
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: .4s;
+}
+
+#tasks .task .content .text:not(:read-only) {
+    color: var(--blue);
+}
+
+#tasks .task .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.task .actions .edit {
+    background-image: linear-gradient(to left, var(--green), var(--blue));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity .6s;
+}
+
+.task .actions .delete {
+    color: var(--light);
+    transition: color .4s;
+}
+
+.task .actions .delete:hover {
+    color: rgb(255, 0, 51);
+}
