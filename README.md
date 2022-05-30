@@ -8,14 +8,17 @@
 
 
 ## Demonstração
+<img src="/assets/imgs/print1.png" alt="">
+<img src="/assets/imgs/print2.png" alt="">
+<img src="/assets/imgs/print3.png" alt="">
+<img src="/assets/imgs/print4.png" alt="">
+<img src="/assets/imgs/print5.png" alt="">
 
-Em breve...
 
 
 ## Aprendizados
 
-Aqui vou contar como foi criar esse projeto.
-
+Nesse projeto, pude ter muito mais contato com o JavaScript, manipulando a DOM e fazendo um CRUD completo. Pude ir um pouco mais a fundo nos conceitos de manipulação do HTML e do CSS com o JavaScript.
 
 ## Funcionalidades
 

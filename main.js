@@ -86,7 +86,6 @@ window.addEventListener('load', () => {
             if (task_content_el.className === 'content'){
                 task_content_el.classList.add('-done')
                 task_actions_el.removeChild(task_edit_el)
-                task_actions_el.removeChild(task_delete_el)
                 
             } else {
                 task_content_el.classList.remove('-done')
